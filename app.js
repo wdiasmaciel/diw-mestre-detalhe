@@ -8,7 +8,7 @@ const dados = [
     "categoria": "Cidades",
     "autor": "Joana Ribeiro",
     "data": "2025-03-30",
-    "imagem": "img/imagem1.png"
+    "imagem": "img/mobilidade.png"
   },
   {
     "id": 2,
@@ -18,7 +18,7 @@ const dados = [
     "categoria": "Tecnologia",
     "autor": "Carlos Mendes",
     "data": "2025-03-28",
-    "imagem": "img/imagem2.png"
+    "imagem": "img/tecnologia_6g.png"
   },
   {
     "id": 3,
@@ -28,6 +28,6 @@ const dados = [
     "categoria": "Cultura",
     "autor": "Ana Clara Silva",
     "data": "2025-03-27",
-    "imagem": "img/imagem3.png"
+    "imagem": "img/festival_musica.png"
   }
 ];
