@@ -17,16 +17,16 @@
     const container = document.getElementById('noticias');
 
     dados.forEach(item => {
-      const card = document.createElement('div');
-      card.className = 'card';
-      card.innerHTML = `
+      const cartao = document.createElement('div');
+      cartao.className = 'card';
+      cartao.innerHTML = `
         <img src="${item.imagem}" alt="${item.titulo}" class="card-img">
         <h2>${item.titulo}</h2>
         <p><strong>${item.categoria}</strong> - ${item.data}</p>
         <p>${item.descricao}</p>
         <a href="detalhe.html?id=${item.id}">Leia mais</a>
       `;
-      container.appendChild(card);
+      container.appendChild(cartao);
     });
   </script>
 </body>
